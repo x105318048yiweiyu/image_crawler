@@ -59,12 +59,19 @@
 The direct logic of image crawler was: 
 
 1. Open the browser. 
+   ![178393327-1f951b5f-0081-4bac-b8ef-9ffabdab33f9](https://user-images.githubusercontent.com/32357364/178393958-f6afb280-3b1c-453b-812c-c18271002f86.png)
 2. Navigate to specific URL and search on it.
+   ![2022-07-12 10-16-03 的螢幕擷圖](https://user-images.githubusercontent.com/32357364/178394172-8da15782-3837-454a-b02f-7e263d749ad7.png)
 3. Locate input field, emulate user input and enter to search.
+   ![image](https://user-images.githubusercontent.com/32357364/178394217-b61a4f42-f54d-4fd2-abcf-cac7360cdf99.png)
 4. Find button「圖片」and navigate to google image.
+   ![image](https://user-images.githubusercontent.com/32357364/178394251-de2dba3e-3962-4515-b96c-ac97a73ced47.png)
 5. Scrolling to the bottom of web-page and load more images as many as possible.
+   ![image](https://user-images.githubusercontent.com/32357364/178394318-4c4ec61d-6fc2-4227-878d-418ede1757ec.png)
 6. Find all image elements in result web-page. And click each thumbnail to get the URL to download it.
+   ![image](https://user-images.githubusercontent.com/32357364/178394383-bd4d7da7-479a-47da-a62a-c7cc716de403.png)
 7. Collect the suggest links and click each link to collect more images.
+   ![image](https://user-images.githubusercontent.com/32357364/178394438-df562b96-2a1c-44c0-bc7d-361a06345e46.png)
 8. Then finish it.
 
 ## Usage
