@@ -23,6 +23,8 @@ class CrawlSelenium():
     def set_loading_strategy(self, strategy="none"):
         user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36'
         self.options.add_argument('--user-agent=%s' % user_agent)
+        self.options.add_argument('--no-sandbox')
+        self.options.add_argument('--disable-dev-shm-usage')
         # self.options.add_argument('--headless')     #在背景執行
         self.options.add_experimental_option('excludeSwitches', ['enable-automation'])
         self.options.page_load_strategy = strategy
